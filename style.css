@@ -137,6 +137,11 @@ nav ul li a:hover {
 	margin-left: -215px;
 }
 
+.cpRHS .inner:hover {
+	background-color:grey;
+	transition: .2s all ease-in;
+}
+
 .cpRHS img {
 	position: absolute;
 	left: 50%;
