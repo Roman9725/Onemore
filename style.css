@@ -1,0 +1,303 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.fullWrap {
+	width: 100%;
+}
+
+.subWrap {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+.clearFix {
+	clear: both;
+}
+
+.topSecBG {
+	background-color: #fcda3b;
+	height: 550px;
+}
+
+.topSec {
+	background-color: #fcda3b;
+	height: 550px;
+}
+
+.logo {
+	float: left;
+	margin-top: 18px;
+	cursor: pointer;
+}
+
+nav {
+	float: right;
+	margin-top: 25px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding-right: 25px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	padding: 7px;
+}
+
+nav ul li a:hover {
+	color: darkcyan;
+	transition: .2s all ease-in;
+}
+
+.classPayna {
+	margin-top: 50px;
+}
+
+.cpLHS {
+	float: left;
+	width: 50%;
+}
+
+.cpRHS {
+	float: left;
+	width: 50%;
+}
+
+.cpLHS header h2 {
+	margin-bottom: 5px;
+	font-size: 27px;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.cpLHS header h3 {
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.cpLHS p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 18px;
+}
+.cpLHS ul {
+	margin-top: 25px;
+}
+
+.cpLHS ul li {
+	display: inline;
+}
+
+.cpLHS .fab {
+	font-size: 35px;
+	padding-right: 10%;
+	cursor: pointer;
+}
+
+.cpLHS .fab:hover {
+	color: darkcyan;
+	transition: .2s all ease-in;
+}
+
+.cpRHS .outer {
+	width: 500px;
+	height: 360px;
+	background-color: black;
+	border-radius: 5%;
+	position: relative;
+	left: 50%;
+	margin-left: -250px;
+}
+
+.cpRHS .inner {
+	width: 430px;
+	height: 320px;
+	background-color: white;
+	position: relative;
+	left: 50%;
+	top: 20px;
+	margin-left: -215px;
+}
+
+.cpRHS img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.sectionHeader {
+	text-align: center;
+	margin: 50px 0 50px 0;
+	font-family: 'Grenze Gotisch', cursive;
+}
+
+.sectionHeader h2 {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.midSec .sectionHeader p {
+	font-size: 16px;
+	font-weight: bold;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.midConRow {
+	display: block;
+	width: 100%;
+	columns: 3;
+	margin-right: 15px;
+	margin-bottom: 50px;
+}
+
+.rowCon {
+	margin-left: 15px;
+}
+
+.rowCon h3 {
+	font-size: 21px;
+	font-family: 'Galada', cursive;
+}
+
+.rowCon p {
+	color: gray;
+	font-weight: bold;
+	font-family: 'Do Hyeon', sans-serif;
+}
+.bottomSecBG {
+	background-color: black;
+}
+
+.bottomSec {
+	color: white;
+	padding-top: 5px;
+	height: 550px;
+}
+
+.bottomSec .sectionHeader {
+	margin-bottom: 30px;
+}
+
+.bottomSec .sectionHeader h2 {
+	color: yellow;
+}
+
+.bottomSec .sectionHeader p {
+	font-size: 16px;
+	font-weight: bold;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.bottomSec form {
+	text-align: center;
+}
+
+.bottomSec form input {
+	width: 40%;
+	height: 45px;
+	font-size: 15px;
+	padding: 10px;
+	font-weight: bold;
+}
+.bottomSec form button {
+	height: 45px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #fcda3b;
+	border: none;
+	border-radius: 5%;
+	cursor: pointer;
+}
+
+.bottomSec form button:hover {
+	background-color: darkcyan;
+	transition: .2s all ease-in;
+}
+
+.social {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.social .fab {
+	font-size: 30px;
+	background-color: #fcda3b;
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+	width: 50px;
+}
+
+.social .fab:hover {
+	background-color: darkcyan;
+	transition: .2s all ease-in;
+}
+
+.bottotmList {
+	width: 100%;
+	color: white;
+	margin-top: 15px;
+}
+
+.col {
+	float: left;
+	width: 20%;
+	font-size: 16px;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+.col address {
+	font-family: 'Fugaz One', cursive;
+}
+
+.col ul li {
+	list-style: none;
+}
+
+.col ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: 'Fugaz One', cursive;
+}
+
+.col ul li a:hover {
+	color: darkcyan;
+	transition: .2s all ease-in;
+}
+
+footer {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+footer p a {
+	text-decoration: none;
+	font-family: 'Fugaz One', cursive;
+	color: white;
+}
+
+footer p a:hover {
+	color: darkcyan;
+	transition: .2s all ease-in;
+}
