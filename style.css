@@ -118,11 +118,13 @@ nav ul li a:hover {
 	border-radius: 5%;
 	position: relative;
 	left: 50%;
+	cursor:pointer;
 	margin-left: -250px;
 }
 
 .cpRHS .outer:hover {
 	background-color:darkcyan;
+	transition: .2s all ease-in;
 }
 
 .cpRHS .inner {
