@@ -121,6 +121,10 @@ nav ul li a:hover {
 	margin-left: -250px;
 }
 
+.cpRHS .outer:hover {
+	background-color:darkcyan;
+}
+
 .cpRHS .inner {
 	width: 430px;
 	height: 320px;
